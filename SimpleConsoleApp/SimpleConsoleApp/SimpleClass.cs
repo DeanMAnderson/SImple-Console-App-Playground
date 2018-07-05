@@ -9,6 +9,11 @@ namespace SimpleConsoleApp
         public int Age { get; set; }
         public string Country { get; set; }
 
+        public SimpleClass()
+        {
+            Country = "Unitied Kingdom";
+        }
+
         public string Concat(string _first, string _last)
         {
             return _first + " " + _last;

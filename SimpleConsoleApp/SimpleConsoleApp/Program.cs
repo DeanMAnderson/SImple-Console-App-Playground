@@ -10,7 +10,7 @@ namespace SimpleConsoleApp
 
             Simple.GetUsersName();
 
-            Console.WriteLine("Hello " + Simple.Concat(Simple.FirstName, Simple.LastName));
+            Console.WriteLine("Hello " + Simple.Concat(Simple.FirstName, Simple.LastName) + " - Country of origin " + Simple.Country);
             Console.ReadLine();
 
             Simple.GetUsersIntValue();
